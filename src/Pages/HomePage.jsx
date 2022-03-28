@@ -7,33 +7,6 @@ import axios from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
 import { useHistory } from "react-router-dom";
 
-// const issues = [
-//   {
-//     id: 1,
-//     title: "Jira Clone",
-//     type: "bug",
-//     status: "open",
-//   },
-//   {
-//     id: 2,
-//     title: "Jira Clone2",
-//     type: "question",
-//     status: "inprogress",
-//   },
-//   {
-//     id: 3,
-//     title: "Jira Clone3",
-//     type: "improvement",
-//     status: "waiting",
-//   },
-//   {
-//     id: 4,
-//     title: "Jira Clone4",
-//     type: "bug",
-//     status: "resolved",
-//   },
-// ];
-
 const HomePage = () => {
   const history = useHistory();
   let [isOpen, setIsOpen] = useState(false);

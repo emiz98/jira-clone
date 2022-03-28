@@ -6,49 +6,6 @@ import { useParams } from "react-router-dom";
 import Header from "../Components/Header";
 import IssueHistory from "../Components/IssueHistory";
 
-// const records = [
-//   {
-//     id: 1,
-//     changedTo: "open",
-//     timestamp: "2021-01-11",
-//   },
-//   {
-//     id: 2,
-//     changedTo: "inprogress",
-//     timestamp: "2021-01-13",
-//   },
-//   {
-//     id: 3,
-//     changedTo: "waiting",
-//     timestamp: "2021-01-14",
-//   },
-//   {
-//     id: 4,
-//     changedTo: "resolved",
-//     timestamp: "2021-01-14",
-//   },
-//   {
-//     id: 1,
-//     changedTo: "open",
-//     timestamp: "2021-01-11",
-//   },
-//   {
-//     id: 2,
-//     changedTo: "inprogress",
-//     timestamp: "2021-01-13",
-//   },
-//   {
-//     id: 3,
-//     changedTo: "waiting",
-//     timestamp: "2021-01-14",
-//   },
-//   {
-//     id: 4,
-//     changedTo: "resolved",
-//     timestamp: "2021-01-14",
-//   },
-// ];
-
 const IssueDetails = () => {
   const history = useHistory();
   const { id } = useParams();

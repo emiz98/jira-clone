@@ -103,7 +103,7 @@ const Issue = ({ id, title, issueType, issueStatus }) => {
                     )}
                     {finalStatus == "inprogress" && (
                       <>
-                        <option value="waiting">Waiting On CLient</option>
+                        <option value="waiting">Waiting On Client</option>
                         <option value="resolved">Resolved</option>
                       </>
                     )}
